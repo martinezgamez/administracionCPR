@@ -1,0 +1,14 @@
+.form-multi-tab{
+}
+
+.form-multi-tab > .form-tab{
+
+}
+
+.form-multi-tab > .form-tab > div{
+    display: none;
+}
+
+.form-multi-tab > .active > div{
+    display: block;
+}

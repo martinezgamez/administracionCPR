@@ -1,0 +1,24 @@
+.datatable_head{
+    padding: 0px 0 20px 0;
+}
+
+.editable-cell{
+    padding: 0px; !important;
+    /*background-color: #edffe3; !important;*/
+}
+
+.editable-cell > input[type=text], .editable-cell > input[type=date], .editable-cell > input[type=time]{
+    margin: 0px; !important;
+    background-color: transparent;
+    border: 0px;
+    display:block;
+    width: 100%;
+}
+
+.button-cell{
+    width: 0px;
+}
+
+.button-cell .btn{
+    width: 50px;
+}

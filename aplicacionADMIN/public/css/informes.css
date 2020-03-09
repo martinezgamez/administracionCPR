@@ -1,0 +1,169 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: justify;
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+}
+
+.page {
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.separador{
+    clear: both;
+    height: 50px;
+}
+
+.informe-titulo{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.content{
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 20px;
+    color: #333;
+}
+
+.informe-inicial > div{
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+tr.separator-top{
+    border-top: 1px solid #D2D2D2;
+}
+
+.table-invisible{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.table-invisible tr{
+    margin: 0px;
+    padding: 0px;
+}
+.table-invisible tr.firmas td{
+    height: 100px;!important;
+}
+
+.table-invisible th{
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.table-invisible td{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabla-informe{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.tabla-informe tr{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabla-informe th{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    margin: 0px;
+    padding: 10px;
+}
+
+.tabla-informe td{
+    border: 1px solid #dddddd;
+    margin: 0px;
+    padding: 10px;
+}
+
+.footer{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.tabla-normal{
+    width:100%;
+}
+
+.tabla-normal th{
+    border-style: solid;
+    padding: 5px;
+}
+
+.tabla-normal td{
+    border-style: solid;
+    padding: 5px;
+}
+
+.tabla-certificacion{
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.tabla-certificacion th.verde{
+    text-align: center;
+    background-color: MediumSeaGreen;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabla-certificacion th.gris{
+    text-align: center;
+    background-color: Grey;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabla-certificacion th.naranja{
+    text-align: center;
+    background-color: Orange;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabla-certificacion td.azul{
+    background-color: LightBlue;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabla-certificacion td{
+    border:1pt solid black;
+    padding: 5px;
+}
